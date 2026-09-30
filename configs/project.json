@@ -1,0 +1,25 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "embedding_model": "BAAI/bge-m3",
+  "years": [2023, 2024, 2025],
+  "seed": 20260923,
+  "context_length": 4096,
+  "max_new_tokens": 512,
+  "max_steps": 8,
+  "train_target": 800,
+  "evaluation_per_split": 100,
+  "companies": [
+    {"code": "600519", "name": "贵州茅台", "split": "train"},
+    {"code": "000858", "name": "五粮液", "split": "train"},
+    {"code": "600690", "name": "海尔智家", "split": "train"},
+    {"code": "000651", "name": "格力电器", "split": "train"},
+    {"code": "300750", "name": "宁德时代", "split": "train"},
+    {"code": "601012", "name": "隆基绿能", "split": "train"},
+    {"code": "600276", "name": "恒瑞医药", "split": "train"},
+    {"code": "600887", "name": "伊利股份", "split": "train"},
+    {"code": "000333", "name": "美的集团", "split": "validation"},
+    {"code": "000063", "name": "中兴通讯", "split": "validation"},
+    {"code": "002594", "name": "比亚迪", "split": "test"},
+    {"code": "300760", "name": "迈瑞医疗", "split": "test"}
+  ]
+}

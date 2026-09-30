@@ -1,0 +1,708 @@
+{
+  "report_date": "2026-09-27",
+  "audit_scope": "Read-only verification of returned archive; no new server run and no PDF re-audit.",
+  "source_archive": "finsight-vllm-v013-20260927-214333-648011-compare-3261949.zip",
+  "source_sha256": "9877dfb64b8bedad389d7ac2a6324ae6991f4575da6179de48aecdc3e61b02e4",
+  "source_request": {
+    "mode": "compare",
+    "gpu": 1,
+    "backend": "vllm",
+    "background": false,
+    "commit": "d5b6a47cfd5c9fff5124e5bbb0d40ff63c4d52f4",
+    "manifest_sha256": "aff6db22244c6cd525315375f05db00c0c0df7cc7529c921715a94d1375e963a"
+  },
+  "source_status": {
+    "exit_code": 0,
+    "status": "completed"
+  },
+  "verification": {
+    "sidecar_sha256_matches": true,
+    "zip_crc_pass": true,
+    "manifest_file_count": 36,
+    "all_member_hashes_match": true,
+    "no_unlisted_members": true,
+    "release_manifest_matches": true,
+    "nine_samples_recomputed": true,
+    "same_input_token_hash": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+    "same_sampling_and_seed": true,
+    "financial_values_recomputed_from_archived_sources": true
+  },
+  "question": "中兴通讯2024年毛利率、资产负债率",
+  "results": [
+    {
+      "backend": "hf",
+      "runtime": {
+        "versions": {
+          "torch": "2.8.0+cu126",
+          "transformers": "5.8.0",
+          "vllm": null,
+          "triton": "3.4.0",
+          "llguidance": null
+        },
+        "backend": "hf",
+        "load_seconds": 112.59751780889928,
+        "physical_gpu": "1"
+      },
+      "warmups": [
+        {
+          "backend": "hf",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "d10181e41f651e18fdde55175a06bdca5ad780ed70d4f9ef0a97b4abba4a7469",
+          "max_new_tokens": 64,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 2.4378220792859793,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 64,
+          "seconds": 5.238794,
+          "tokens_per_generation_second": 12.216552501764616,
+          "decode_tokens_per_second_estimate": 22.497726692357265
+        },
+        {
+          "backend": "hf",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "d10181e41f651e18fdde55175a06bdca5ad780ed70d4f9ef0a97b4abba4a7469",
+          "max_new_tokens": 64,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.24802209436893463,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 64,
+          "seconds": 2.931879,
+          "tokens_per_generation_second": 21.829007071781774,
+          "decode_tokens_per_second_estimate": 23.478749477098926
+        }
+      ],
+      "samples": [
+        {
+          "backend": "hf",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "1335a0e010ab4025b4f1fcf4d3cfd3c1b2d5f8f86fee49e77f2f171b6f299c3c",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.24764024280011654,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 21.965914,
+          "tokens_per_generation_second": 23.308841546996263,
+          "decode_tokens_per_second_estimate": 23.52935539544904
+        },
+        {
+          "backend": "hf",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "1335a0e010ab4025b4f1fcf4d3cfd3c1b2d5f8f86fee49e77f2f171b6f299c3c",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.24751466885209084,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 21.994425,
+          "tokens_per_generation_second": 23.27862601948289,
+          "decode_tokens_per_second_estimate": 23.498343452872057
+        },
+        {
+          "backend": "hf",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "1335a0e010ab4025b4f1fcf4d3cfd3c1b2d5f8f86fee49e77f2f171b6f299c3c",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.246770478785038,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 21.934245,
+          "tokens_per_generation_second": 23.34249503297106,
+          "decode_tokens_per_second_estimate": 23.562707987571414
+        }
+      ],
+      "median_tokens_per_second": 23.308841546996263,
+      "speedup_vs_hf": 1.0,
+      "full_generation": {
+        "backend": "hf",
+        "enable_thinking": true,
+        "seed": 42,
+        "sampling": {
+          "temperature": 0.6,
+          "top_p": 0.95,
+          "top_k": 20,
+          "min_p": 0.0,
+          "repetition_penalty": 1.0
+        },
+        "input_tokens": 745,
+        "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+        "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+        "output_ids_sha256": "3e2183aafd5b03538c1ffb167a8ee893968d8005396a741b0fee99914b3dda0a",
+        "max_new_tokens": 8192,
+        "fixed_length": false,
+        "stop_reason": "eos",
+        "ttft_seconds": 0.24702777154743671,
+        "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+        "generated_tokens": 3992,
+        "seconds": 169.559012,
+        "tokens_per_generation_second": 23.54342571042365,
+        "decode_tokens_per_second_estimate": 23.571964290534115
+      },
+      "full_question_seconds": 169.768,
+      "financial_results": [
+        {
+          "metric": "gross_margin",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "transform": "value",
+          "value": "37.9127",
+          "unit": "%",
+          "citations": [
+            "000063-2024-revenue",
+            "000063-2024-cost"
+          ]
+        },
+        {
+          "metric": "debt_ratio",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "transform": "value",
+          "value": "64.7361",
+          "unit": "%",
+          "citations": [
+            "000063-2024-liabilities",
+            "000063-2024-assets"
+          ]
+        }
+      ],
+      "final_plan_and_financial_arithmetic_recomputed": true
+    },
+    {
+      "backend": "vllm",
+      "runtime": {
+        "versions": {
+          "torch": "2.11.0+cu129",
+          "transformers": "5.8.0",
+          "vllm": "0.23.0+cu129",
+          "triton": "3.6.0",
+          "llguidance": "1.7.6"
+        },
+        "backend": "vllm",
+        "load_seconds": 275.9875287115574,
+        "physical_gpu": "1"
+      },
+      "warmups": [
+        {
+          "backend": "vllm",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "d10181e41f651e18fdde55175a06bdca5ad780ed70d4f9ef0a97b4abba4a7469",
+          "max_new_tokens": 64,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 1.9357712268829346,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 64,
+          "seconds": 2.691412,
+          "tokens_per_generation_second": 23.779341592977975,
+          "decode_tokens_per_second_estimate": 83.3759272671736
+        },
+        {
+          "backend": "vllm",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "d10181e41f651e18fdde55175a06bdca5ad780ed70d4f9ef0a97b4abba4a7469",
+          "max_new_tokens": 64,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.06348180770874023,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 64,
+          "seconds": 0.822238,
+          "tokens_per_generation_second": 77.83638987942892,
+          "decode_tokens_per_second_estimate": 83.04499485464228
+        }
+      ],
+      "samples": [
+        {
+          "backend": "vllm",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "1335a0e010ab4025b4f1fcf4d3cfd3c1b2d5f8f86fee49e77f2f171b6f299c3c",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.06201887130737305,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 6.274859,
+          "tokens_per_generation_second": 81.59545287828571,
+          "decode_tokens_per_second_estimate": 82.25103091087243
+        },
+        {
+          "backend": "vllm",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "1335a0e010ab4025b4f1fcf4d3cfd3c1b2d5f8f86fee49e77f2f171b6f299c3c",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.06336331367492676,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 6.217679,
+          "tokens_per_generation_second": 82.34584220947093,
+          "decode_tokens_per_second_estimate": 83.03313979320001
+        },
+        {
+          "backend": "vllm",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "1335a0e010ab4025b4f1fcf4d3cfd3c1b2d5f8f86fee49e77f2f171b6f299c3c",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.06539177894592285,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 6.228649,
+          "tokens_per_generation_second": 82.20081299501805,
+          "decode_tokens_per_second_estimate": 82.91242662694268
+        }
+      ],
+      "median_tokens_per_second": 82.20081299501805,
+      "speedup_vs_hf": 3.5265936674408005,
+      "full_generation": {
+        "backend": "vllm",
+        "enable_thinking": true,
+        "seed": 42,
+        "sampling": {
+          "temperature": 0.6,
+          "top_p": 0.95,
+          "top_k": 20,
+          "min_p": 0.0,
+          "repetition_penalty": 1.0
+        },
+        "input_tokens": 745,
+        "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+        "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+        "output_ids_sha256": "5fc54f6da070077e2382410d87be5d45aff74dac6bd6c514ce28bf0f5fcbd4dd",
+        "max_new_tokens": 8192,
+        "fixed_length": false,
+        "stop_reason": "eos",
+        "ttft_seconds": 0.0644216537475586,
+        "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+        "generated_tokens": 3098,
+        "seconds": 37.597694,
+        "tokens_per_generation_second": 82.39867023203675,
+        "decode_tokens_per_second_estimate": 82.51386414010383
+      },
+      "full_question_seconds": 37.605,
+      "financial_results": [
+        {
+          "metric": "gross_margin",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "transform": "value",
+          "value": "37.9127",
+          "unit": "%",
+          "citations": [
+            "000063-2024-revenue",
+            "000063-2024-cost"
+          ]
+        },
+        {
+          "metric": "debt_ratio",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "transform": "value",
+          "value": "64.7361",
+          "unit": "%",
+          "citations": [
+            "000063-2024-liabilities",
+            "000063-2024-assets"
+          ]
+        }
+      ],
+      "final_plan_and_financial_arithmetic_recomputed": true
+    },
+    {
+      "backend": "vllm-mtp",
+      "runtime": {
+        "versions": {
+          "torch": "2.11.0+cu129",
+          "transformers": "5.8.0",
+          "vllm": "0.23.0+cu129",
+          "triton": "3.6.0",
+          "llguidance": "1.7.6"
+        },
+        "backend": "vllm-mtp",
+        "load_seconds": 444.3408707305789,
+        "physical_gpu": "1"
+      },
+      "warmups": [
+        {
+          "backend": "vllm-mtp",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "cb2a6470886a1084398a7bc7fc8a514ab21b678ca50d5be3549ef109fcfb1c64",
+          "max_new_tokens": 64,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 2.899042844772339,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 64,
+          "seconds": 3.400661,
+          "tokens_per_generation_second": 18.819868045637527,
+          "decode_tokens_per_second_estimate": 125.60651236314878
+        },
+        {
+          "backend": "vllm-mtp",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "cb2a6470886a1084398a7bc7fc8a514ab21b678ca50d5be3549ef109fcfb1c64",
+          "max_new_tokens": 64,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.06878924369812012,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 64,
+          "seconds": 0.580705,
+          "tokens_per_generation_second": 110.21091067327409,
+          "decode_tokens_per_second_estimate": 123.1102363834633
+        }
+      ],
+      "samples": [
+        {
+          "backend": "vllm-mtp",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "3291579e47a45c1f0160e82030a69961fc54dcd5c619ff5a9233727d1310b2c8",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.06871414184570312,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 4.395009,
+          "tokens_per_generation_second": 116.49577861164201,
+          "decode_tokens_per_second_estimate": 118.11702335787004
+        },
+        {
+          "backend": "vllm-mtp",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "3291579e47a45c1f0160e82030a69961fc54dcd5c619ff5a9233727d1310b2c8",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.06875085830688477,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 4.328608,
+          "tokens_per_generation_second": 118.28282748482413,
+          "decode_tokens_per_second_estimate": 119.96103004614277
+        },
+        {
+          "backend": "vllm-mtp",
+          "enable_thinking": true,
+          "seed": 42,
+          "sampling": {
+            "temperature": 0.6,
+            "top_p": 0.95,
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0
+          },
+          "input_tokens": 745,
+          "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+          "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+          "output_ids_sha256": "3291579e47a45c1f0160e82030a69961fc54dcd5c619ff5a9233727d1310b2c8",
+          "max_new_tokens": 512,
+          "fixed_length": true,
+          "stop_reason": "max_new_tokens",
+          "ttft_seconds": 0.0684041976928711,
+          "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+          "generated_tokens": 512,
+          "seconds": 4.332876,
+          "tokens_per_generation_second": 118.16631819524649,
+          "decode_tokens_per_second_estimate": 119.83023481932631
+        }
+      ],
+      "median_tokens_per_second": 118.16631819524649,
+      "speedup_vs_hf": 5.069592066898503,
+      "full_generation": {
+        "backend": "vllm-mtp",
+        "enable_thinking": true,
+        "seed": 42,
+        "sampling": {
+          "temperature": 0.6,
+          "top_p": 0.95,
+          "top_k": 20,
+          "min_p": 0.0,
+          "repetition_penalty": 1.0
+        },
+        "input_tokens": 745,
+        "prompt_sha256": "f10b115076f52fe204a25e58468590a2cf6da955283829e5e0fa52cba1bac0f0",
+        "input_ids_sha256": "5c6c3e666a9c945c90a315b5094a351d4b8cd0e5fd5191a3bb5ad7424720f3f0",
+        "output_ids_sha256": "e31459f35068daa730dff4f600e15911dd554baf8a8edbcfba33ab30d6f4a0c9",
+        "max_new_tokens": 8192,
+        "fixed_length": false,
+        "stop_reason": "eos",
+        "ttft_seconds": 0.0701134204864502,
+        "timing_note": "Generation wall time includes prefill. Decode estimate uses engine token timestamps; MTP may emit bursts.",
+        "generated_tokens": 2224,
+        "seconds": 18.920299,
+        "tokens_per_generation_second": 117.54570875808274,
+        "decode_tokens_per_second_estimate": 117.93275972664564
+      },
+      "full_question_seconds": 18.928,
+      "financial_results": [
+        {
+          "metric": "gross_margin",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "transform": "value",
+          "value": "37.9127",
+          "unit": "%",
+          "citations": [
+            "000063-2024-revenue",
+            "000063-2024-cost"
+          ]
+        },
+        {
+          "metric": "debt_ratio",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "transform": "value",
+          "value": "64.7361",
+          "unit": "%",
+          "citations": [
+            "000063-2024-liabilities",
+            "000063-2024-assets"
+          ]
+        }
+      ],
+      "final_plan_and_financial_arithmetic_recomputed": true
+    }
+  ],
+  "mtp": {
+    "draft_tokens": 2071,
+    "accepted_tokens": 1813,
+    "acceptance_rate": 0.8754225012071463,
+    "scope": "Cumulative across two warmups, three fixed-length samples and one full financial question; not accuracy."
+  },
+  "financial_sources": [
+    {
+      "id": "000063-2024-revenue",
+      "company": "000063",
+      "year": 2024,
+      "metric": "revenue",
+      "value": "121298752",
+      "unit": "千元",
+      "scope": "consolidated",
+      "report_id": "000063-2024",
+      "page": 111,
+      "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+      "evidence": "营业收入                              43           121,298,752         124,250,878"
+    },
+    {
+      "id": "000063-2024-cost",
+      "company": "000063",
+      "year": 2024,
+      "metric": "cost",
+      "value": "75311066",
+      "unit": "千元",
+      "scope": "consolidated",
+      "report_id": "000063-2024",
+      "page": 111,
+      "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+      "evidence": "减：营业成本                          43            75,311,066          72,702,602"
+    },
+    {
+      "id": "000063-2024-liabilities",
+      "company": "000063",
+      "year": 2024,
+      "metric": "liabilities",
+      "value": "134212948",
+      "unit": "千元",
+      "scope": "consolidated",
+      "report_id": "000063-2024",
+      "page": 109,
+      "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+      "evidence": " 负债合计                                           134,212,948          132,626,873"
+    },
+    {
+      "id": "000063-2024-assets",
+      "company": "000063",
+      "year": 2024,
+      "metric": "assets",
+      "value": "207323230",
+      "unit": "千元",
+      "scope": "consolidated",
+      "report_id": "000063-2024",
+      "page": 108,
+      "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+      "evidence": " 资产总计                                           207,323,230          200,958,318"
+    }
+  ],
+  "limitations": [
+    "One validation question, one GPU, one seed, three timing repetitions per backend.",
+    "Fixed-length benchmark suppresses EOS and includes prefill; excludes model loading.",
+    "HF and vLLM use different Torch/CUDA/Triton versions; speedup describes environment change.",
+    "Different complete output lengths prevent attributing all full-answer latency change to engine throughput.",
+    "Current path is base-model JSON planning plus deterministic tools, without the prior LoRA adapter.",
+    "Source rows and calculations were checked; original PDFs and model tensors were not independently rehashed in this audit."
+  ]
+}

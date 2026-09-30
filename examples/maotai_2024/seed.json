@@ -1,0 +1,23 @@
+{
+  "review_note": "Codex cross-checked PDF page images and extracted text on 2026-09-23. This is an AI-assisted seed review, not a human audit signature. 2023 comparative figures use the 2024 report's presentation. Original PDF is downloaded separately and SHA256 checked.",
+  "report": {
+    "id": "600519-2024", "company": "600519", "report_year": 2024,
+    "url": "https://static.cninfo.com.cn/finalpage/2025-04-03/1222993920.PDF",
+    "title": "贵州茅台2024年年度报告",
+    "sha256": "5299f4940e2ce4e91084b73dc457d558b9d335fa76fbfee6227e4254eb7f4a30"
+  },
+  "facts": [
+    {"report_id":"600519-2024","year":2024,"metric":"revenue","value":"170899152276.34","unit":"元","scope":"consolidated","page":63,"evidence":"其中：营业收入 40 170,899,152,276.34 147,693,604,994.14","reviewer":"Codex PDF visual+text review","status":"approved"},
+    {"report_id":"600519-2024","year":2023,"metric":"revenue","value":"147693604994.14","unit":"元","scope":"consolidated","page":63,"evidence":"其中：营业收入 40 170,899,152,276.34 147,693,604,994.14","reviewer":"Codex PDF visual+text review","status":"approved"},
+    {"report_id":"600519-2024","year":2024,"metric":"net_profit","value":"86228146421.62","unit":"元","scope":"consolidated","page":64,"evidence":"1.归属于母公司股东的净利润（净 86,228,146,421.62 74,734,071,550.75 亏损以“-”号填列）","reviewer":"Codex PDF visual+text review","status":"approved"},
+    {"report_id":"600519-2024","year":2023,"metric":"net_profit","value":"74734071550.75","unit":"元","scope":"consolidated","page":64,"evidence":"1.归属于母公司股东的净利润（净 86,228,146,421.62 74,734,071,550.75 亏损以“-”号填列）","reviewer":"Codex PDF visual+text review","status":"approved"},
+    {"report_id":"600519-2024","year":2024,"metric":"operating_cashflow","value":"92463692168.43","unit":"元","scope":"consolidated","page":8,"evidence":"经营活动产生的现金流量净额 92,463,692,168.43 66,593,247,721.09 38.85","reviewer":"Codex PDF visual+text review","status":"approved"},
+    {"report_id":"600519-2024","year":2023,"metric":"operating_cashflow","value":"66593247721.09","unit":"元","scope":"consolidated","page":8,"evidence":"经营活动产生的现金流量净额 92,463,692,168.43 66,593,247,721.09 38.85","reviewer":"Codex PDF visual+text review","status":"approved"},
+    {"report_id":"600519-2024","year":2024,"metric":"assets","value":"298944579918.70","unit":"元","scope":"consolidated","page":59,"evidence":"资产总计 298,944,579,918.70 272,699,660,092.25","reviewer":"Codex PDF visual+text review; scope header page 58","status":"approved"},
+    {"report_id":"600519-2024","year":2023,"metric":"assets","value":"272699660092.25","unit":"元","scope":"consolidated","page":59,"evidence":"资产总计 298,944,579,918.70 272,699,660,092.25","reviewer":"Codex PDF visual+text review; scope header page 58","status":"approved"},
+    {"report_id":"600519-2024","year":2024,"metric":"liabilities","value":"56933264798.10","unit":"元","scope":"consolidated","page":60,"evidence":"负债合计 56,933,264,798.10 49,043,190,797.43","reviewer":"Codex PDF visual+text review; scope header page 58","status":"approved"},
+    {"report_id":"600519-2024","year":2023,"metric":"liabilities","value":"49043190797.43","unit":"元","scope":"consolidated","page":60,"evidence":"负债合计 56,933,264,798.10 49,043,190,797.43","reviewer":"Codex PDF visual+text review; scope header page 58","status":"approved"},
+    {"report_id":"600519-2024","year":2024,"metric":"cost","value":"13789482367.98","unit":"元","scope":"consolidated","page":63,"evidence":"其中：营业成本 40 13,789,482,367.98 11,867,273,851.78","reviewer":"Codex PDF visual+text review","status":"approved"},
+    {"report_id":"600519-2024","year":2023,"metric":"cost","value":"11867273851.78","unit":"元","scope":"consolidated","page":63,"evidence":"其中：营业成本 40 13,789,482,367.98 11,867,273,851.78","reviewer":"Codex PDF visual+text review","status":"approved"}
+  ]
+}

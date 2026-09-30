@@ -1,0 +1,40 @@
+{
+  "protocol": "lora-v016-1",
+  "base_commit": "49ec8762b8a9977a64f9768ae3955e04daf26930",
+  "files": {
+    "lora_v016/__init__.py": "65d2c0d4416dc0487e8adebc4c6a2a15ea1dace1e1c0f7c5ce910825df6197fa",
+    "lora_v016/common.py": "54651011fb6be79a2ff73dea7fc36aa7319ee3c2ca5eedc3829662c41387dc53",
+    "lora_v016/config.json": "a1e6ef8094435aef908d9203168c2f265023ee1a810ef7f3a239b861c1e8feda",
+    "lora_v016/corpus.py": "bc4ba93afaa8a9205e8598b1fd96b96f11f9ea427d9b5a7dedf92a5f59b4db07",
+    "lora_v016/data/audit.json": "bb37f5b9e2e50fee23155634ec27184902e5af3d964feb1c7af7b892f07883e6",
+    "lora_v016/data/train.jsonl": "d7e69ac1c52b49c582181f92e24cda478a2b1a2024d03c06efac33cfa362f293",
+    "lora_v016/data/trajectories.json": "8eb00a8f2290256f182d2ebe41de3540f11123500af08caf395b755dbe35bfb1",
+    "lora_v016/evaluate.py": "604b3d582b0a9c0610281c7b87b5c803fe3ebeac301ce615dd5ce066562a7ec3",
+    "lora_v016/launch.py": "33d61d50e9ce9a92b754fef896d7c39bdc7e85a6750f896750ec6d5c87ed9a1b",
+    "lora_v016/merge.py": "53324b73dfd994bab12ce68f91216fca0168e450407ee3345d39feeedb81acc0",
+    "lora_v016/README.md": "7a5027926373cf096404a3e222654a1cc7bbb29bd4d8a49e26bf71bb5352cc22",
+    "lora_v016/run.sh": "93284e4ad7e33370a9516df0e9de0baf82aa95ffd043ec9e0612e4933415fc74",
+    "lora_v016/test_lora.py": "490e0db38282b6dea0bbc0be60bd579968987bf977bfa9edb69d8e7c9b65ee38",
+    "lora_v016/tokenization.py": "8aaccca4ab54b38e2b8288f128775054744794811623547ee484baa33a0ba742",
+    "lora_v016/train.py": "4463b01c7f7926d3bade4b68c5f9008149c90154f86bf2472e28670fc7108efd",
+    "lora_v016/worker.py": "438c8dc57c574335658eb037363b8925f70abea67d564985e18b37d57667fc2b"
+  },
+  "dependencies": {
+    "agent_v015/PACKAGE_MANIFEST.json": "8b71f9b5efaff0b70839742fff1a300da0be83e53f8fb08fb676eb6868087e28",
+    "vllm_v013/runtime.py": "412bb7e9eca70327cba3bc391f40c3fc03ad19645ba13b56e4c190e31c3cf979",
+    "vllm_v013/adapter.py": "aa4e3a98a334ca3b46ed28133aebc1ef0f8d6f6bad8c82470353bca2012f96d3",
+    "models/Qwen3.5-9B/config.json": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05",
+    "models/Qwen3.5-9B/tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+    "models/Qwen3.5-9B/tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "models/Qwen3.5-9B/model.safetensors.index.json": "26d3539b516be613f39563617cb9d33b3f83d401298125be392c80cefb8f7fe5",
+    "models/Qwen3.5-9B/chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+  },
+  "base_model_shards": {
+    "model.safetensors-00001-of-00004.safetensors": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+    "model.safetensors-00002-of-00004.safetensors": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+    "model.safetensors-00003-of-00004.safetensors": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+    "model.safetensors-00004-of-00004.safetensors": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6"
+  },
+  "frozen_agent": "agent-v015.5",
+  "test_companies_used": false
+}

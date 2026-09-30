@@ -1,0 +1,644 @@
+{
+  "Q01": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "debt_ratio",
+        "transform": "value",
+        "status": "ok",
+        "value": "64.7361",
+        "unit": "%",
+        "citations": [
+          "000063-2024-assets",
+          "000063-2024-liabilities"
+        ],
+        "source_sha256": "dbb6bb5bd39a43c9bca758c76a6c5199f8cca0b2161fc7141967fa5dc5e0951d"
+      },
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "gross_margin",
+        "transform": "value",
+        "status": "ok",
+        "value": "37.9127",
+        "unit": "%",
+        "citations": [
+          "000063-2024-cost",
+          "000063-2024-revenue"
+        ],
+        "source_sha256": "b178a4270a65eabd59ecdd66b91935998e9170a67c7310e9e52a79a6c6b51dc3"
+      }
+    ]
+  },
+  "Q02": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000333",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "ok",
+        "value": "4071.4960",
+        "unit": "亿元",
+        "citations": [
+          "000333-2024-revenue"
+        ],
+        "source_sha256": "2021f862cdfdf204a2068760e35eec29b90efcdf890d3cf629451aa5b47eb8d0"
+      }
+    ]
+  },
+  "Q03": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "assets",
+        "transform": "value",
+        "status": "ok",
+        "value": "2073.2323",
+        "unit": "亿元",
+        "citations": [
+          "000063-2024-assets"
+        ],
+        "source_sha256": "8cb555a62a4f74f05737f8799136d5495724884706a15ef1091b84fadbc3626d"
+      },
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "liabilities",
+        "transform": "value",
+        "status": "ok",
+        "value": "1342.1295",
+        "unit": "亿元",
+        "citations": [
+          "000063-2024-liabilities"
+        ],
+        "source_sha256": "0e195f33cc5df228e7fad1033b7611700ca9ae2dfc4da71eaec9d096b309feb3"
+      }
+    ]
+  },
+  "Q04": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000333",
+        "year": 2023,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "ok",
+        "value": "3720.3728",
+        "unit": "亿元",
+        "citations": [
+          "000333-2023-revenue"
+        ],
+        "source_sha256": "4b5a5c2c35400f774a9d27f6016c852a4c5577fb18a7376029682bbddfdb45ec"
+      },
+      {
+        "company": "000333",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "ok",
+        "value": "4071.4960",
+        "unit": "亿元",
+        "citations": [
+          "000333-2024-revenue"
+        ],
+        "source_sha256": "2021f862cdfdf204a2068760e35eec29b90efcdf890d3cf629451aa5b47eb8d0"
+      },
+      {
+        "company": "000333",
+        "year": 2025,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "ok",
+        "value": "4564.5173",
+        "unit": "亿元",
+        "citations": [
+          "000333-2025-revenue"
+        ],
+        "source_sha256": "220d5d4a865fcedf63b1ae96607e1c77a909193064332fe130330409ddefaaff"
+      }
+    ]
+  },
+  "Q05": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2023,
+        "scope": "consolidated",
+        "metric": "parent_net_profit",
+        "transform": "value",
+        "status": "ok",
+        "value": "93.2575",
+        "unit": "亿元",
+        "citations": [
+          "000063-2023-net_profit"
+        ],
+        "source_sha256": "1806f392d64d37bbe557e7e2f4ca21703f2c3ef31065cdb6926f8afbb40aff38"
+      },
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "parent_net_profit",
+        "transform": "value",
+        "status": "ok",
+        "value": "84.2479",
+        "unit": "亿元",
+        "citations": [
+          "000063-2024-net_profit"
+        ],
+        "source_sha256": "a148289845dbee3ab0515880585e3f2ef4aeb9068aa073c3ef9d8b0c53129809"
+      },
+      {
+        "company": "000063",
+        "year": 2025,
+        "scope": "consolidated",
+        "metric": "parent_net_profit",
+        "transform": "value",
+        "status": "ok",
+        "value": "56.1774",
+        "unit": "亿元",
+        "citations": [
+          "000063-2025-net_profit"
+        ],
+        "source_sha256": "847353da72beaea997ab6388063030eaeb960f06cec690ec41a218845212fc4e"
+      }
+    ]
+  },
+  "Q06": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "cost",
+        "transform": "value",
+        "status": "ok",
+        "value": "753.1107",
+        "unit": "亿元",
+        "citations": [
+          "000063-2024-cost"
+        ],
+        "source_sha256": "1efb558b3beb68740bb85e7a801574eef66d4fb7ee5ebea5264a962a9a32f5e6"
+      }
+    ]
+  },
+  "Q07": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000333",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "ok",
+        "value": "40714960.0000",
+        "unit": "万元",
+        "citations": [
+          "000333-2024-revenue"
+        ],
+        "source_sha256": "2021f862cdfdf204a2068760e35eec29b90efcdf890d3cf629451aa5b47eb8d0"
+      }
+    ]
+  },
+  "Q08": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "debt_ratio",
+        "transform": "value",
+        "status": "ok",
+        "value": "64.7361",
+        "unit": "%",
+        "citations": [
+          "000063-2024-assets",
+          "000063-2024-liabilities"
+        ],
+        "source_sha256": "dbb6bb5bd39a43c9bca758c76a6c5199f8cca0b2161fc7141967fa5dc5e0951d"
+      }
+    ]
+  },
+  "Q09": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "gross_margin",
+        "transform": "value",
+        "status": "ok",
+        "value": "37.9127",
+        "unit": "%",
+        "citations": [
+          "000063-2024-cost",
+          "000063-2024-revenue"
+        ],
+        "source_sha256": "b178a4270a65eabd59ecdd66b91935998e9170a67c7310e9e52a79a6c6b51dc3"
+      },
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "gross_profit",
+        "transform": "value",
+        "status": "ok",
+        "value": "459.8769",
+        "unit": "亿元",
+        "citations": [
+          "000063-2024-cost",
+          "000063-2024-revenue"
+        ],
+        "source_sha256": "b178a4270a65eabd59ecdd66b91935998e9170a67c7310e9e52a79a6c6b51dc3"
+      }
+    ]
+  },
+  "Q10": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000333",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "equity",
+        "transform": "value",
+        "status": "ok",
+        "value": "2276.6739",
+        "unit": "亿元",
+        "citations": [
+          "000333-2024-assets",
+          "000333-2024-liabilities"
+        ],
+        "source_sha256": "99550e24fd90a41ef785c8446030d5b51687da17b36bcf9764deb2c32fdee6e0"
+      },
+      {
+        "company": "000333",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "equity_ratio",
+        "transform": "value",
+        "status": "ok",
+        "value": "37.6713",
+        "unit": "%",
+        "citations": [
+          "000333-2024-assets",
+          "000333-2024-liabilities"
+        ],
+        "source_sha256": "99550e24fd90a41ef785c8446030d5b51687da17b36bcf9764deb2c32fdee6e0"
+      }
+    ]
+  },
+  "Q11": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "parent_net_profit",
+        "transform": "yoy_growth",
+        "status": "ok",
+        "value": "-9.6610",
+        "unit": "%",
+        "citations": [
+          "000063-2023-net_profit",
+          "000063-2024-net_profit"
+        ],
+        "source_sha256": "3fbe5df7b029dd50936d99f1efda370902fb3c08a970baa998df0b0dc5ecd8ce"
+      },
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "parent_net_profit",
+        "transform": "value",
+        "status": "ok",
+        "value": "84.2479",
+        "unit": "亿元",
+        "citations": [
+          "000063-2024-net_profit"
+        ],
+        "source_sha256": "a148289845dbee3ab0515880585e3f2ef4aeb9068aa073c3ef9d8b0c53129809"
+      }
+    ]
+  },
+  "Q12": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000333",
+        "year": 2025,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "yoy_difference",
+        "status": "ok",
+        "value": "493.0213",
+        "unit": "亿元",
+        "citations": [
+          "000333-2024-revenue",
+          "000333-2025-revenue"
+        ],
+        "source_sha256": "04865990ae7a6173984f6ddadeeb35233a3ab394c30d1c3713b9e8c0ba9bde37"
+      },
+      {
+        "company": "000333",
+        "year": 2025,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "ok",
+        "value": "4564.5173",
+        "unit": "亿元",
+        "citations": [
+          "000333-2025-revenue"
+        ],
+        "source_sha256": "220d5d4a865fcedf63b1ae96607e1c77a909193064332fe130330409ddefaaff"
+      }
+    ]
+  },
+  "Q13": {
+    "kind": "task",
+    "status": "no_results",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "gross_margin",
+        "transform": "yoy_pp",
+        "status": "basis_mismatch",
+        "value": null,
+        "unit": null,
+        "citations": [],
+        "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  "Q14": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000333",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "asset_turnover",
+        "transform": "value",
+        "status": "ok",
+        "value": "0.7468",
+        "unit": "次",
+        "citations": [
+          "000333-2023-assets",
+          "000333-2024-assets",
+          "000333-2024-revenue"
+        ],
+        "source_sha256": "29e6b86521ec03fc239b46c2e11c62137539120d2c104797d9b25a395f319420"
+      }
+    ]
+  },
+  "Q15": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000333",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "cash_parent_profit_ratio",
+        "transform": "value",
+        "status": "ok",
+        "value": "157.0210",
+        "unit": "%",
+        "citations": [
+          "000333-2024-net_profit",
+          "000333-2024-operating_cashflow"
+        ],
+        "source_sha256": "1030be39b60d263e2f5c2d5b6f0786d484a3b7d4f8d3164c88a1053e3128b9a2"
+      }
+    ]
+  },
+  "Q16": {
+    "kind": "task",
+    "status": "partial",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "gross_margin",
+        "transform": "value",
+        "status": "ok",
+        "value": "37.9127",
+        "unit": "%",
+        "citations": [
+          "000063-2024-cost",
+          "000063-2024-revenue"
+        ],
+        "source_sha256": "b178a4270a65eabd59ecdd66b91935998e9170a67c7310e9e52a79a6c6b51dc3"
+      },
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "net_margin",
+        "transform": "value",
+        "status": "missing_fields",
+        "value": null,
+        "unit": null,
+        "citations": [],
+        "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  "Q17": {
+    "kind": "task",
+    "status": "no_results",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "total_net_profit",
+        "transform": "value",
+        "status": "missing_fields",
+        "value": null,
+        "unit": null,
+        "citations": [],
+        "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  "Q18": {
+    "kind": "task",
+    "status": "no_results",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2022,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "missing_fields",
+        "value": null,
+        "unit": null,
+        "citations": [],
+        "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  "Q19": {
+    "kind": "task",
+    "status": "no_results",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "parent",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "missing_fields",
+        "value": null,
+        "unit": null,
+        "citations": [],
+        "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  "Q20": {
+    "kind": "task",
+    "status": "no_results",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2023,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "yoy_growth",
+        "status": "missing_fields",
+        "value": null,
+        "unit": null,
+        "citations": [],
+        "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
+  },
+  "Q21": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification"
+    ]
+  },
+  "Q22": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification"
+    ]
+  },
+  "Q23": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "unsupported_period"
+    ]
+  },
+  "Q24": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "unsupported_period"
+    ]
+  },
+  "Q25": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification"
+    ]
+  },
+  "Q26": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification"
+    ]
+  },
+  "Q27": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification"
+    ]
+  },
+  "Q28": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "unsupported_company"
+    ]
+  },
+  "Q29": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification",
+      "unsupported_metric"
+    ]
+  },
+  "Q30": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification"
+    ]
+  },
+  "Q31": {
+    "kind": "boundary",
+    "expected_statuses": [
+      "needs_clarification"
+    ]
+  },
+  "Q32": {
+    "kind": "task",
+    "status": "completed",
+    "canonical_rows": [
+      {
+        "company": "000063",
+        "year": 2024,
+        "scope": "consolidated",
+        "metric": "revenue",
+        "transform": "value",
+        "status": "ok",
+        "value": "1212.9875",
+        "unit": "亿元",
+        "citations": [
+          "000063-2024-revenue"
+        ],
+        "source_sha256": "0e2414a34f05b9864f559ccb1fdd76bdae160d6f7ab3654db15f7ecc81fba420"
+      }
+    ]
+  }
+}

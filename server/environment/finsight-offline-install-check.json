@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "platform": "Linux",
+  "architecture": "x86_64",
+  "glibc": [
+    "glibc",
+    "2.28"
+  ],
+  "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+  "prefix": "/verification/finsight-install.g2s4jU/.runtime/envs/finsight",
+  "versions": {
+    "torch": "2.8.0+cu126",
+    "torchvision": "0.23.0+cu126",
+    "torchaudio": "2.8.0+cu126",
+    "transformers": "5.8.0",
+    "peft": "0.18.1",
+    "llamafactory": "0.9.6.dev0",
+    "sentence-transformers": "5.7.0",
+    "PyMuPDF": "1.28.2",
+    "PyYAML": "6.0.3",
+    "conda-pack": "0.8.1",
+    "setuptools": "80.9.0"
+  },
+  "small_qwen35_forward_backward": true,
+  "lora_save_reload": true,
+  "cuda_runtime": "12.6",
+  "cuda_available": false,
+  "a800_gpu_tested": false,
+  "base_9b_weights_included": false
+}

@@ -1,0 +1,17 @@
+{
+  "protocol": "lora-v016-1",
+  "seed": 20260928,
+  "epochs": 2,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "learning_rate": 0.0001,
+  "effective_batch_size": 32,
+  "max_length": 10240,
+  "max_action_tokens": 1024,
+  "probe_steps": 20,
+  "thinking": false,
+  "evaluation_backend": "vllm-mtp",
+  "evaluation_seed": 42,
+  "checkpoint_selection": "final_epoch_only_no_validation_selection"
+}

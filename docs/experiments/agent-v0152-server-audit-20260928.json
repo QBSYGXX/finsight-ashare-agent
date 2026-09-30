@@ -1,0 +1,117 @@
+{
+  "archive": "finsight-agent-v015-20260928-112612-ddc06fea.zip",
+  "sha256": "bf2a721e92d9af5fa4812140692a32b4bd036959fba585d76883a2d5a2488cf8",
+  "member_hashes_verified": 18,
+  "scores_recomputed": 13,
+  "diagnostic_pass": "9/13",
+  "model_invoking_pass": "6/10",
+  "preflight_pass": "3/3",
+  "median_generation_tokens_per_second": 83.1979426145146,
+  "records": [
+    {
+      "id": "R01",
+      "passed": true,
+      "preflight": false,
+      "status": "completed",
+      "model_calls": 2,
+      "seconds": 258.318
+    },
+    {
+      "id": "R02",
+      "passed": true,
+      "preflight": false,
+      "status": "completed",
+      "model_calls": 2,
+      "seconds": 4.535
+    },
+    {
+      "id": "R03",
+      "passed": true,
+      "preflight": false,
+      "status": "completed",
+      "model_calls": 2,
+      "seconds": 4.281
+    },
+    {
+      "id": "R04",
+      "passed": true,
+      "preflight": false,
+      "status": "completed",
+      "model_calls": 2,
+      "seconds": 3.96
+    },
+    {
+      "id": "M01",
+      "passed": true,
+      "preflight": false,
+      "status": "completed",
+      "model_calls": 4,
+      "seconds": 5.722
+    },
+    {
+      "id": "M02",
+      "passed": false,
+      "preflight": false,
+      "status": "step_limit",
+      "model_calls": 10,
+      "seconds": 12.914
+    },
+    {
+      "id": "M03",
+      "passed": false,
+      "preflight": false,
+      "status": "step_limit",
+      "model_calls": 10,
+      "seconds": 13.237
+    },
+    {
+      "id": "M04",
+      "passed": false,
+      "preflight": false,
+      "status": "step_limit",
+      "model_calls": 10,
+      "seconds": 4.556
+    },
+    {
+      "id": "X01",
+      "passed": true,
+      "preflight": false,
+      "status": "completed",
+      "model_calls": 3,
+      "seconds": 4.972
+    },
+    {
+      "id": "B01",
+      "passed": true,
+      "preflight": true,
+      "status": "unsupported_period",
+      "model_calls": 0,
+      "seconds": 0.0
+    },
+    {
+      "id": "B02",
+      "passed": true,
+      "preflight": true,
+      "status": "needs_clarification",
+      "model_calls": 0,
+      "seconds": 0.0
+    },
+    {
+      "id": "B03",
+      "passed": true,
+      "preflight": true,
+      "status": "needs_clarification",
+      "model_calls": 0,
+      "seconds": 0.0
+    },
+    {
+      "id": "B04",
+      "passed": false,
+      "preflight": false,
+      "status": "step_limit",
+      "model_calls": 10,
+      "seconds": 5.198
+    }
+  ],
+  "limitations": "Validation diagnostics, not blind accuracy. Generation timings include prefill and exclude model initialization."
+}

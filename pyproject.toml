@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finsight-ashare-agent"
+version = "0.2.0"
+description = "Evidence-grounded A-share annual report agent adapted from FinSight"
+requires-python = ">=3.10"
+license = {text = "GPL-3.0-only"}
+dependencies = ["PyMuPDF>=1.25,<2", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+finsight = "finsight_ashare.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,7 @@
+{
+  "profile": {"python": "3.11", "torch": "2.8.0+cu126", "transformers": "5.8.0", "triton": "3.4.0", "machine": "x86_64", "cxx11_abi": true},
+  "wheels": [
+    {"file": "flash_linear_attention-0.5.2-py3-none-any.whl", "sha256": "dcf405d81f5426393b59037097aa700d0f4a841465d5028d5aa543f4502f2400", "url": "https://files.pythonhosted.org/packages/90/d2/2070e3cf2148c5cce99ca4876633c4b7b89ec085323600bd3d47aeacd306/flash_linear_attention-0.5.2-py3-none-any.whl"},
+    {"file": "fla_core-0.5.2-py3-none-any.whl", "sha256": "5e830c85bad3d0d34677f98ac7074d08687a3756f0f0499d95ceb96eb6920761", "url": "https://files.pythonhosted.org/packages/2d/ed/dfe19c4da779957eb6a42a26812f9b4e2280bf757a17a71933ff59ffcb98/fla_core-0.5.2-py3-none-any.whl"}
+  ]
+}

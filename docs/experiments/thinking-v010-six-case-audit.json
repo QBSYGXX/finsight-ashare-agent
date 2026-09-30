@@ -1,0 +1,132 @@
+{
+  "archive": "finsight-thinking-20260927-182658-thinking-v010-3026501.zip",
+  "sha256": "aeb428ac07f2b8e2eb356df9b9c035fdb6b144abccc8aa372806b5a44d0febb8",
+  "rows": [
+    {
+      "case": 1,
+      "policy": "baseline",
+      "status": "completed",
+      "matched": true,
+      "tokens": 3992,
+      "generation_seconds": 182.794
+    },
+    {
+      "case": 1,
+      "policy": "budgeted",
+      "status": "completed",
+      "matched": true,
+      "tokens": 1091,
+      "generation_seconds": 50.291
+    },
+    {
+      "case": 2,
+      "policy": "baseline",
+      "status": "completed",
+      "matched": true,
+      "tokens": 4204,
+      "generation_seconds": 189.282
+    },
+    {
+      "case": 2,
+      "policy": "budgeted",
+      "status": "completed",
+      "matched": true,
+      "tokens": 1067,
+      "generation_seconds": 48.825
+    },
+    {
+      "case": 3,
+      "policy": "baseline",
+      "status": "completed",
+      "matched": true,
+      "tokens": 1354,
+      "generation_seconds": 60.813
+    },
+    {
+      "case": 3,
+      "policy": "budgeted",
+      "status": "completed",
+      "matched": true,
+      "tokens": 1094,
+      "generation_seconds": 49.777
+    },
+    {
+      "case": 4,
+      "policy": "baseline",
+      "status": "completed",
+      "matched": true,
+      "tokens": 3656,
+      "generation_seconds": 163.389
+    },
+    {
+      "case": 4,
+      "policy": "budgeted",
+      "status": "completed",
+      "matched": true,
+      "tokens": 1067,
+      "generation_seconds": 48.413
+    },
+    {
+      "case": 5,
+      "policy": "baseline",
+      "status": "generation_limit",
+      "matched": false,
+      "tokens": 8192,
+      "generation_seconds": 366.794
+    },
+    {
+      "case": 5,
+      "policy": "budgeted",
+      "status": "partial",
+      "matched": false,
+      "tokens": 1092,
+      "generation_seconds": 49.684
+    },
+    {
+      "case": 6,
+      "policy": "baseline",
+      "status": "unsupported_period",
+      "matched": true,
+      "tokens": null,
+      "generation_seconds": null
+    },
+    {
+      "case": 6,
+      "policy": "budgeted",
+      "status": "unsupported_period",
+      "matched": true,
+      "tokens": null,
+      "generation_seconds": null
+    }
+  ],
+  "identical_paired_financial_results": 8,
+  "verified_source_occurrences": 11,
+  "totals": {
+    "baseline_4_model_cases": {
+      "tokens": 13206,
+      "seconds": 596.278,
+      "tokens_per_generation_second": 22.147
+    },
+    "baseline_5_model_cases": {
+      "tokens": 21398,
+      "seconds": 963.072,
+      "tokens_per_generation_second": 22.218
+    },
+    "budgeted_4_model_cases": {
+      "tokens": 4319,
+      "seconds": 197.306,
+      "tokens_per_generation_second": 21.89
+    },
+    "budgeted_5_model_cases": {
+      "tokens": 5411,
+      "seconds": 246.99,
+      "tokens_per_generation_second": 21.908
+    }
+  },
+  "limitations": [
+    "Single-seed validation-company diagnostics, not a blind accuracy benchmark.",
+    "Case 6 rejects before inference. Case 5 fails intended clarification in both policies.",
+    "Generation throughput includes prefill; budgeted path also includes a second prefill.",
+    "Source verification uses the local audited snapshot; PDFs were not reopened."
+  ]
+}

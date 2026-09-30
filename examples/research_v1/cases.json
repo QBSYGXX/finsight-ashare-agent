@@ -1,0 +1,354 @@
+{
+  "archive": "finsight-lora-v0161-20260929-150415-2044812-20260929-223832.zip",
+  "archive_sha256": "6217e83ff40acd10a1917bd3c19244b72fc18064e8fedf833237ccc10603bc18",
+  "note": "Selected recorded cases, not a live demo or independent benchmark. Times exclude initial model loading.",
+  "cases": [
+    {
+      "title": "数值查询：基础模型",
+      "member": "evaluation/base/diagnostic/M01.json",
+      "member_sha256": "e1120a2ea483ac157f079cf6e0a0555541f58764b9ad7efc7109fac924f31263",
+      "question": "中兴通讯2024年毛利率和资产负债率是多少？",
+      "protocol": "agent-v015.5",
+      "status": "completed",
+      "context": {
+        "company": "000063",
+        "name": "中兴通讯",
+        "years": [
+          2024
+        ],
+        "scope": "consolidated"
+      },
+      "results": [
+        {
+          "metric": "gross_margin",
+          "name": "毛利率",
+          "transform": "value",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "period": "annual",
+          "status": "ok",
+          "value": "37.9127",
+          "unit": "%",
+          "formula": "(营业收入 - 营业成本) / 营业收入 * 100",
+          "citations": [
+            "000063-2024-revenue",
+            "000063-2024-cost"
+          ],
+          "sources": [
+            {
+              "id": "000063-2024-revenue",
+              "company": "000063",
+              "year": 2024,
+              "metric": "revenue",
+              "value": "121298752",
+              "unit": "千元",
+              "scope": "consolidated",
+              "report_id": "000063-2024",
+              "page": 111,
+              "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+              "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+              "evidence": "营业收入                              43           121,298,752         124,250,878"
+            },
+            {
+              "id": "000063-2024-cost",
+              "company": "000063",
+              "year": 2024,
+              "metric": "cost",
+              "value": "75311066",
+              "unit": "千元",
+              "scope": "consolidated",
+              "report_id": "000063-2024",
+              "page": 111,
+              "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+              "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+              "evidence": "减：营业成本                          43            75,311,066          72,702,602"
+            }
+          ],
+          "result_id": "2024:gross_margin:value"
+        },
+        {
+          "metric": "debt_ratio",
+          "name": "资产负债率",
+          "transform": "value",
+          "company": "000063",
+          "year": 2024,
+          "scope": "consolidated",
+          "period": "annual",
+          "status": "ok",
+          "value": "64.7361",
+          "unit": "%",
+          "formula": "总负债 / 总资产 * 100",
+          "citations": [
+            "000063-2024-liabilities",
+            "000063-2024-assets"
+          ],
+          "sources": [
+            {
+              "id": "000063-2024-liabilities",
+              "company": "000063",
+              "year": 2024,
+              "metric": "liabilities",
+              "value": "134212948",
+              "unit": "千元",
+              "scope": "consolidated",
+              "report_id": "000063-2024",
+              "page": 109,
+              "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+              "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+              "evidence": " 负债合计                                           134,212,948          132,626,873"
+            },
+            {
+              "id": "000063-2024-assets",
+              "company": "000063",
+              "year": 2024,
+              "metric": "assets",
+              "value": "207323230",
+              "unit": "千元",
+              "scope": "consolidated",
+              "report_id": "000063-2024",
+              "page": 108,
+              "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+              "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF",
+              "evidence": " 资产总计                                           207,323,230          200,958,318"
+            }
+          ],
+          "result_id": "2024:debt_ratio:value"
+        }
+      ],
+      "quotes": [],
+      "task_plan": {
+        "requests": [
+          {
+            "metric": "gross_margin",
+            "year": 2024,
+            "transform": "value"
+          },
+          {
+            "metric": "debt_ratio",
+            "year": 2024,
+            "transform": "value"
+          }
+        ],
+        "narrative": false,
+        "result_ids": [
+          "2024:gross_margin:value",
+          "2024:debt_ratio:value"
+        ]
+      },
+      "seconds": 2.245,
+      "completeness_verified": false,
+      "actions": [
+        {
+          "step": 1,
+          "action": {
+            "tool": "plan",
+            "arguments": {
+              "requests": [
+                {
+                  "metric": "gross_margin",
+                  "year": 2024,
+                  "transform": "value"
+                },
+                {
+                  "metric": "debt_ratio",
+                  "year": 2024,
+                  "transform": "value"
+                }
+              ],
+              "narrative": false
+            }
+          },
+          "error": null
+        },
+        {
+          "step": 2,
+          "action": {
+            "tool": "financial_metric",
+            "arguments": {
+              "metric": "gross_margin",
+              "year": 2024,
+              "transform": "value"
+            }
+          },
+          "error": null
+        },
+        {
+          "step": 3,
+          "action": {
+            "tool": "financial_metric",
+            "arguments": {
+              "metric": "debt_ratio",
+              "year": 2024,
+              "transform": "value"
+            }
+          },
+          "error": null
+        },
+        {
+          "step": 4,
+          "action": {
+            "tool": "finish",
+            "arguments": {
+              "selections": [],
+              "abstain": false
+            }
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "title": "原文证据：基础模型",
+      "member": "evaluation/base/diagnostic/R02.json",
+      "member_sha256": "82ee1eaa391748da3f142e65659aa756a5d0bc1d9548b38790e758bab84e7f0b",
+      "question": "中兴通讯2024年年报对客户信用风险采取了哪些管理措施？",
+      "protocol": "agent-v015.5",
+      "status": "completed",
+      "context": {
+        "company": "000063",
+        "name": "中兴通讯",
+        "years": [
+          2024
+        ],
+        "scope": "consolidated"
+      },
+      "results": [],
+      "quotes": [
+        {
+          "quote": "本集团为客户提供全方位的通信解决方案，由于本集团业务开展迅速，客户群体庞\n\n大，各类客户的资信存在一定差异，不同的资信状况对本集团的业务发展带来一定的影\n\n响，本集团主要通过客户资信调查、客户资信评级与授信、客户信用额度管理及风险总\n\n量控制、对付款记录不良客户实施信用管控等内部信用管理措施识别和管理信用风险，\n\n及通过购买信用保险、采用合适的融资工具转移信用风险，以减少上述影响。",
+          "match_mode": "selected_sentences",
+          "source_span": [
+            102,
+            294
+          ],
+          "page_span": [
+            966,
+            1158
+          ],
+          "sentence_ids": [
+            0
+          ],
+          "boundary_check": "punctuation_and_section_heuristic",
+          "source": {
+            "id": "000063-2024:p45:c864",
+            "company": "000063",
+            "report_year": 2024,
+            "report_id": "000063-2024",
+            "page": 45,
+            "pdf_sha256": "05d75561d39aab30d942a8616770e32ad9d14c41aade058025b45f069d9fc2a1",
+            "source_url": "https://static.cninfo.com.cn/finalpage/2025-03-01/1222675749.PDF"
+          }
+        }
+      ],
+      "task_plan": {
+        "requests": [],
+        "narrative": true,
+        "result_ids": []
+      },
+      "seconds": 3.064,
+      "completeness_verified": false,
+      "actions": [
+        {
+          "step": 1,
+          "action": {
+            "tool": "plan",
+            "arguments": {
+              "requests": [],
+              "narrative": true
+            }
+          },
+          "error": null
+        },
+        {
+          "step": 2,
+          "action": {
+            "tool": "report_search",
+            "arguments": {
+              "query": "客户信用风险 管理措施",
+              "year": 2024,
+              "top_k": 4
+            }
+          },
+          "error": null
+        },
+        {
+          "step": 3,
+          "action": {
+            "tool": "read_page",
+            "arguments": {
+              "evidence_id": "000063-2024:p45:c864"
+            }
+          },
+          "error": null
+        },
+        {
+          "step": 4,
+          "action": {
+            "tool": "finish",
+            "arguments": {
+              "selections": [
+                {
+                  "evidence_id": "000063-2024:p45:c864",
+                  "first_sentence": 0,
+                  "last_sentence": 0
+                }
+              ],
+              "abstain": false
+            }
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "title": "保留的退化：新LoRA",
+      "member": "evaluation/tuned/diagnostic/R02.json",
+      "member_sha256": "7f28832507b7f755e8be60c134a701b255b32f1e087ce42d73bc834f06364aa8",
+      "question": "中兴通讯2024年年报对客户信用风险采取了哪些管理措施？",
+      "protocol": "agent-v015.5",
+      "status": "insufficient_evidence",
+      "context": {
+        "company": "000063",
+        "name": "中兴通讯",
+        "years": [
+          2024
+        ],
+        "scope": "consolidated"
+      },
+      "results": [],
+      "quotes": [],
+      "task_plan": {
+        "requests": [],
+        "narrative": false,
+        "result_ids": []
+      },
+      "seconds": 0.837,
+      "completeness_verified": false,
+      "actions": [
+        {
+          "step": 1,
+          "action": {
+            "tool": "plan",
+            "arguments": {
+              "requests": [],
+              "narrative": false
+            }
+          },
+          "error": null
+        },
+        {
+          "step": 2,
+          "action": {
+            "tool": "finish",
+            "arguments": {
+              "selections": [],
+              "abstain": true
+            }
+          },
+          "error": null
+        }
+      ]
+    }
+  ]
+}

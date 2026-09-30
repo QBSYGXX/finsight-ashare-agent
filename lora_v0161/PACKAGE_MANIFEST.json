@@ -1,0 +1,42 @@
+{
+  "protocol": "lora-v0161-1",
+  "base_commit": "3379c5ff24e4d399ec42b5808fb632f8601a309f",
+  "files": {
+    "lora_v0161/__init__.py": "65d2c0d4416dc0487e8adebc4c6a2a15ea1dace1e1c0f7c5ce910825df6197fa",
+    "lora_v0161/common.py": "48afecff86a6ba45ef2d9907360be975ccb25857b0bb88f5866acae5132450fe",
+    "lora_v0161/config.json": "a1e6ef8094435aef908d9203168c2f265023ee1a810ef7f3a239b861c1e8feda",
+    "lora_v0161/corpus.py": "bc4ba93afaa8a9205e8598b1fd96b96f11f9ea427d9b5a7dedf92a5f59b4db07",
+    "lora_v0161/data/audit.json": "bb37f5b9e2e50fee23155634ec27184902e5af3d964feb1c7af7b892f07883e6",
+    "lora_v0161/data/train.jsonl": "d7e69ac1c52b49c582181f92e24cda478a2b1a2024d03c06efac33cfa362f293",
+    "lora_v0161/data/trajectories.json": "8eb00a8f2290256f182d2ebe41de3540f11123500af08caf395b755dbe35bfb1",
+    "lora_v0161/evaluate.py": "34ff7d943aefc2b72c1fc6fcc216ad7333d8c4987b2d27d7f397f164d01b473a",
+    "lora_v0161/launch.py": "16bec7bd068e25cc2980beee57fadccd7d2202e9a860f77e28cb33bc7a16a29a",
+    "lora_v0161/merge.py": "53324b73dfd994bab12ce68f91216fca0168e450407ee3345d39feeedb81acc0",
+    "lora_v0161/README.md": "f91568d80911a97faf004e4a0bbd7fc2a081b8283ea572477f71a5c3abcb6926",
+    "lora_v0161/run.sh": "967fa72399cef72ce22d9aaa7915ba4b2d8567c6bd8b603b7cdcc1c46ba28df6",
+    "lora_v0161/test_lora.py": "490e0db38282b6dea0bbc0be60bd579968987bf977bfa9edb69d8e7c9b65ee38",
+    "lora_v0161/test_training_arguments.py": "b373cfb2e80e69caad0e52ff5ad14d13c37d14d0de46a02d4301c8da616fb97e",
+    "lora_v0161/tokenization.py": "8aaccca4ab54b38e2b8288f128775054744794811623547ee484baa33a0ba742",
+    "lora_v0161/train.py": "4a38b5760820afea47219c20f2f3bbbe8ebed366aea1374c3e7443f26b0ac21e",
+    "lora_v0161/worker.py": "438c8dc57c574335658eb037363b8925f70abea67d564985e18b37d57667fc2b"
+  },
+  "dependencies": {
+    "agent_v015/PACKAGE_MANIFEST.json": "8b71f9b5efaff0b70839742fff1a300da0be83e53f8fb08fb676eb6868087e28",
+    "vllm_v013/runtime.py": "412bb7e9eca70327cba3bc391f40c3fc03ad19645ba13b56e4c190e31c3cf979",
+    "vllm_v013/adapter.py": "aa4e3a98a334ca3b46ed28133aebc1ef0f8d6f6bad8c82470353bca2012f96d3",
+    "models/Qwen3.5-9B/config.json": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05",
+    "models/Qwen3.5-9B/tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+    "models/Qwen3.5-9B/tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "models/Qwen3.5-9B/model.safetensors.index.json": "26d3539b516be613f39563617cb9d33b3f83d401298125be392c80cefb8f7fe5",
+    "models/Qwen3.5-9B/chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+  },
+  "base_model_shards": {
+    "model.safetensors-00001-of-00004.safetensors": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+    "model.safetensors-00002-of-00004.safetensors": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+    "model.safetensors-00003-of-00004.safetensors": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+    "model.safetensors-00004-of-00004.safetensors": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6"
+  },
+  "frozen_agent": "agent-v015.5",
+  "test_companies_used": false,
+  "derived_from_manifest_sha256": "19c2edfde5c5cae9cb30cced971e410ff155f179d537887ae0e35f59787d435e"
+}

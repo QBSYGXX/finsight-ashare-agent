@@ -1,0 +1,41 @@
+{
+  "protocol": "agent-v015-1.5",
+  "base_commit": "9c773eeeabec754d60c98df1f79d79f09614d1ba",
+  "files": {
+    "agent_v015/__init__.py": "99d74a16d58e153407951c983510104b1073d1348607638d1d8180317bff39de",
+    "agent_v015/action_contract.py": "d1135a039c1fcedbe55387d251b0bd1649ed304c87893d6b551c9de8142b089e",
+    "agent_v015/agent.py": "f1385328ea2ae9cb648b18d5900a6e180edac5fbeb095bf827be414d06d6ad88",
+    "agent_v015/cli.py": "e1880661be66c10d8264dec6ef974fb96b1cc0c7a346b526ab0bd2d71bc4710d",
+    "agent_v015/evaluation.py": "671903cdaaaf4aa03891fcf6d11c2fef2eecf49aef5ffee4f31cb643ef88cef4",
+    "agent_v015/excerpts.py": "b70eae6619fbf489c05c20e3e8a21bfa6737e1f42f2822a58fbfe02db307e858",
+    "agent_v015/finance.py": "5ca3222b6f06f0189d8ac099ea94d6b78d69ede7f8345c4bc5475bf67eee5a6e",
+    "agent_v015/launch.py": "3815573b51aceeb59c4e62abbba367176a5c945bb3a615b8754f99bdfb6e1a96",
+    "agent_v015/model.py": "87a5300468de6abb75aac504a58764c9b1ac8ddb1ece367e51a43ba6a4ae2fe7",
+    "agent_v015/natural_evaluation.py": "058b9d8cc3f5e95d21e604ab76b437f8c48f3ab7a4af7561a04143a9c2bfc73c",
+    "agent_v015/natural_v1.json": "7e365dd7c2168b1e6810bf285ae926729a097679f4e6c2f4fa3e5b7aaefb5026",
+    "agent_v015/quote_regression.json": "fe12c1f5c9d64543371002396b5360089fa5b11d9ad0ee5bb1d12ed93a55e7c8",
+    "agent_v015/README.md": "9614b411941622e2c5a61f242b941c8ecd77079a1df6f44996734e7310354052",
+    "agent_v015/registry.json": "43785d1fc2cbffb99d61d5491a9b007489ea310d3f1c40c3767b4f2eb9f0d474",
+    "agent_v015/retrieval.py": "90b23468cbdb1bb6d37036427df3ad4bca896b52f1e910354010751de53c220c",
+    "agent_v015/run.sh": "8ea91cb3c3a2940a3c63e86d1f5a96c2a34929fe971ce5e436db00fe4a6dc6a6",
+    "agent_v015/storage.py": "28344f054255548a93974df09b7a28edcc9888034a238af1e9284cde362ab11e",
+    "agent_v015/test_action_contract.py": "08422641d9ccee3a557ac90bf00c530bae92867d75fdbdc1ed31136fdabe9a79",
+    "agent_v015/test_agent.py": "defb3db6ad515080ddb0ebafc4fdd110c291a47ff4c052f22750cc39f19ef7c5",
+    "agent_v015/test_cli.py": "53850067c8764cbba12be10d70118cb9ee2144763b72072297b4042120b934f9",
+    "agent_v015/test_excerpts.py": "1b15a7ffad2a7fb9817a3efefd6f1630c65e850c352b8a6750e0d5c2ed72cf52",
+    "agent_v015/test_natural_evaluation.py": "28dfab07077d30d8710446bd1d78be43010a171e8e778d7923c0739e2c1761de",
+    "agent_v015/test_storage.py": "523bc55f32abb033b3a8360fda97dbac8d50e0141f4157356f118275dee231c2"
+  },
+  "dependencies": {
+    "data/verified/facts.json": "48e6796f4bc66ceae4871345d13cc64e871b5e68cb0b40e44ac00775ee294962",
+    "data/processed/pages.jsonl": "6b85f8d268fe8270ea8ebfe5f737cd9c44a0363e49a172ea6001fd52f601ae84",
+    "data/manifest.json": "077b220ce5d55f75f2884c4fb1be0ff036a230657aa5e2049dca2eabea6429ff",
+    "configs/project.json": "94c1f423ca6c3efbe2af6229608f71a9d04c665fb9aadd4c106dfc96fcac2363",
+    "vllm_v013/runtime.py": "412bb7e9eca70327cba3bc391f40c3fc03ad19645ba13b56e4c190e31c3cf979",
+    "vllm_v013/adapter.py": "aa4e3a98a334ca3b46ed28133aebc1ef0f8d6f6bad8c82470353bca2012f96d3"
+  },
+  "dependency_lf_sha256": {
+    "data/verified/facts.json": "d30dd46f31a197afafbc4bc68fef9e85c97189b86ca0faad1544e485122251b5",
+    "data/manifest.json": "a910070d5a9d7982bd850d5f499a12eef1c6526ed925380e770cd7b0b04c6aec"
+  }
+}

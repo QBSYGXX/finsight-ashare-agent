@@ -1,0 +1,15 @@
+{
+  "status": "candidate_until_server_doctor_and_20_step_probe_pass",
+  "python": "3.11",
+  "torch_index": "https://download.pytorch.org/whl/cu126",
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "torchaudio": "2.8.0",
+  "transformers": "5.8.0",
+  "peft": "0.18.1",
+  "llamafactory_commit": "97b32d3133b501432141a82949d5c7bc4d94f23a",
+  "minimum_driver_major": 560,
+  "gpus": 4,
+  "minimum_gpu_memory_mib": 38000,
+  "minimum_free_disk_gib": 80
+}
